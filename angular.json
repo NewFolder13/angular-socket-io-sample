@@ -87,10 +87,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "angular-socket-io-sample:build:production"
+              "buildTarget": "angular-socket-io-sample:build:production"
             },
             "development": {
-              "browserTarget": "angular-socket-io-sample:build:development"
+              "buildTarget": "angular-socket-io-sample:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -98,7 +98,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-socket-io-sample:build"
+            "buildTarget": "angular-socket-io-sample:build"
           }
         },
         "test": {
